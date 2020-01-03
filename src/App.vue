@@ -2,14 +2,17 @@
   <div id="app">
     <Header></Header>
     <router-view />
+    <Footer />
   </div>
 </template>
 <script>
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 export default {
   name: "app",
   components: {
-    Header
+    Header,
+    Footer
   }
 };
 </script>
@@ -41,6 +44,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background: var(--secondary-color);
+  overflow: hidden;
 }
 /* Atomic Styles  */
 .container {
