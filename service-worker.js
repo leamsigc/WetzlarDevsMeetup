@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.596583225fae1276d8bfdc41a19b9de8.js"
+  "/WetzlarDevsMeetup/precache-manifest.c4540e7c361295a67f02713a647fb6d7.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "wetzlardevsmeetup"});
