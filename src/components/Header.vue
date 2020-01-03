@@ -2,7 +2,7 @@
   <header class="header">
     <div class="container">
       <div class="logo-container">
-        <img src="@/assets/logo/DuckLogo.svg" alt="Wetzlar developers logo">
+        <img src="@/assets/logo/DuckLogo.svg" alt="Wetzlar developers logo" />
       </div>
       <nav class="nav">
         <ul class="nav--ul">
@@ -30,7 +30,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .header {
   background: var(--main-color);
   padding: 1rem;
@@ -39,6 +39,9 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 }
 .logo-container {
   text-align: left;
@@ -47,7 +50,7 @@ export default {
   justify-content: center;
   align-items: center;
 }
-.logo-container img{
+.logo-container img {
   display: block;
   max-height: 100px;
 }

@@ -54,7 +54,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .main {
   padding: 2rem;
 }
@@ -64,5 +64,9 @@ export default {
   grid-gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, minmax(150px, 200px));
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, minmax(150px, 200px));
+  }
 }
 </style>

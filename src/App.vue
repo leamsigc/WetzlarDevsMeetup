@@ -13,7 +13,7 @@ export default {
   }
 };
 </script>
-<style>
+<style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900&display=swap");
 :root {
   --main-color: #001353;
@@ -31,6 +31,9 @@ body {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.5;
+  @media (max-width: 800px) {
+    font-size: 15px;
+  }
 }
 #app {
   font-family: var(--main-font-family), "Avenir", Helvetica, Arial, sans-serif;

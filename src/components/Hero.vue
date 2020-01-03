@@ -10,7 +10,7 @@
         </p>
       </div>
       <div class="btn-container">
-        <SecondaryBtn v-for="btn in heroBtns" :key="btn" :textContent="btn"/>
+        <SecondaryBtn v-for="btn in heroBtns" :key="btn" :textContent="btn" />
       </div>
     </div>
   </section>
@@ -41,7 +41,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .section-hero {
   color: var(--secondary-color);
   padding: 2rem 1rem;
@@ -50,13 +50,26 @@ export default {
   justify-content: center;
   align-items: flex-end;
   text-align: left;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    min-height: 50vh;
+  }
 }
 .btn-container {
   flex: 1 1 1;
   margin: 4rem 0 5rem;
   display: flex;
+  @media (max-width: 800px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    .btn {
+      margin-bottom: 1rem;
+      margin-left: 0;
+    }
+  }
 }
-.btn-container .btn:not(:first-child){
+.btn-container .btn:not(:first-child) {
   margin-left: 1rem;
 }
 </style>
