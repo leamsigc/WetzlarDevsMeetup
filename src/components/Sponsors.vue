@@ -8,12 +8,14 @@
         trainings and job offers. Build your list and presence with this group
         for way less than what it costs to advertise on popular Social Media
         Platforms (e.g. Big Tech), and the great thing is you’ll reach real
-        people <span class="bg"> (not robots and fake profiles)!</span>
+        people
+        <span class="bg">(not robots and fake profiles)!</span>
       </p>
       <p class="subtitle">
         If you want to become a sponsor of our group, simply contact us via our
-        email info@wetzlar.dev.Please ask about Sponsorships in the subject
-        line.
+        email
+        <a href="mailto:info@wetzlar.dev">info@wetzlar.dev</a> .Please ask about
+        Sponsorships in the subject line.
       </p>
       <div class="container-sponsors">
         <img
@@ -21,14 +23,10 @@
           src="@/assets/sponsors/reflectMedia.png"
           alt="Reflect medialogo"
         />
-        <img
-          class="sponsors-logos"
-          src="@/assets/sponsors/atlasian.png"
-          alt=""
-        />
+        <img class="sponsors-logos" src="@/assets/sponsors/atlasian.png" alt />
         <img
           src="@/assets/sponsors/digitalOcean.png"
-          alt=""
+          alt
           class="sponsors-logos"
         />
       </div>
@@ -44,7 +42,7 @@ export default {
 
 <style scoped>
 .section-sponsors {
-  padding: 4rem 0;
+  padding: 4rem 0 6rem;
   background: url("../assets/SponsorBg.svg") no-repeat center center / 70%,
     var(--secondary-color);
 }
