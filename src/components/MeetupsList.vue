@@ -3,7 +3,11 @@
     <h1 class="title">Next meetups</h1>
     <section class="container">
       <div class="meetup--container">
-        <Meetups v-for="meetups in allMeetups" :key="meetups.title" :item="meetups" />
+        <Meetups
+          v-for="meetups in allMeetups"
+          :key="meetups.title"
+          :item="meetups"
+        />
       </div>
     </section>
   </main>
