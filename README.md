@@ -1,5 +1,8 @@
 # wetzlardevsmeetup
 
+### Wetzlar Developers Meetup Website Design
+
+![Wetzlar](./public/img/icons/Home.png)
 ## Project setup
 ```
 npm install
