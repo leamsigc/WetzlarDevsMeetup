@@ -3,6 +3,10 @@
 ### Wetzlar Developers Meetup Website Design
 
 ![Wetzlar](./public/img/icons/Home.png)
+
+[Github Pages Demo ](https://leamsigc.github.io/WetzlarDevsMeetup)
+[Demo Netlify](https://wetzlarmeetup.netlify.com/)
+
 ## Project setup
 ```
 npm install
